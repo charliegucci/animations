@@ -1,0 +1,83 @@
+@import url('https://meyerweb.com/eric/tools/css/reset/reset.css');
+
+#container {
+  margin: 0 10%;
+  height: 100vh;
+  background-color: blue;
+}
+
+section {
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  min-height: 100%;
+  h1 {
+    padding: 3px;
+    font-size: 1.5em;
+  }
+  .text {
+    display: flex;
+    flex-direction: row;
+    div {
+      width: 50%;
+    }
+    p {
+      padding: 10px 20px 5px 20px;
+      font-size: .7em;
+    }
+    ul {
+      padding: 10px 10px 10px 0;  
+      font-size: .75em;
+      font-weight: bold;
+      li {
+        font-weight: normal;
+        font-size: .8em;
+        list-style: circle inside;
+        padding-left: 10px;
+      }
+    }
+
+  }
+}
+
+.ani-container {
+  border: 1px solid black;
+  margin: 15px 20px;
+  flex-grow: 2;
+}
+.item {
+  height: 40px;
+  width: 40px;
+  background-color: blue;
+  position: relative;
+}
+
+#links {
+  align-self: center;
+}
+
+.forward {
+  max-width: 10%;
+  font-size: .75em;
+}
+
+.previous {
+  max-width: 10%;
+  font-size: .75em;
+}
+
+.circle {
+  border-radius: 90px;
+  height: 180px;
+  width: 180px;
+  align-self: center;
+  flex-grow: 0;
+  .item {
+    width: 1px;
+    height: 90px;
+    position: relative;
+    left: 50%;
+    background-color: black;
+  }
+}

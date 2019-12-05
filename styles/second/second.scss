@@ -1,0 +1,13 @@
+@import "../partials/animations";
+@import "../partials/defaults";
+
+#seconds-hand {
+  animation: seconds-hand 60s linear infinite;
+  transform-origin: bottom;
+}
+
+#minutes-hand {
+  height: 50px;
+  animation: seconds-hand 3600s linear infinite;
+  transform-origin: top;
+}

@@ -1,0 +1,30 @@
+//put your animations here
+
+@keyframes move-down-left {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  to {
+    left: calc(100% - 40px);
+    top: calc(100% - 40px);
+  }
+}
+
+@keyframes seconds-hand {
+  0% {
+    transform: rotate(0);;
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
