@@ -2,3 +2,14 @@
 @import "../partials/defaults";
 
 // Your Code Goes Here
+
+#seconds-hand {
+    transform-origin: bottom;
+    animation: rotate 60s linear infinite;
+}
+
+
+#minutes-hand {
+    animation: rotate_min 3600s 60s linear infinite;
+    transform-origin: top;
+}

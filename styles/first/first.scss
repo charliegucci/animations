@@ -1,5 +1,8 @@
 @import "../partials/animations";
 @import "../partials/defaults";
 
+.item {
 
-// Your Code Goes Here
+
+    animation: move 10s linear;
+}
